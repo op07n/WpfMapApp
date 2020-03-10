@@ -16,7 +16,7 @@ jobs:
      
 
       - name: Nuget Restore ATM Simulator
-        run: nuget restore "$Env:GITHUB_WORKSPACE\"
+        run: nuget restore
         
 
       - name: Build
