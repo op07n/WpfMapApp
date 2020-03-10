@@ -26,7 +26,7 @@
                         FlowDirection="LeftToRight" SelectionMode="Single">            
             <dxm:ImageTilesLayer x:Name="map">
                 <dxm:ImageTilesLayer.DataProvider>
-                    <dxm:BingMapDataProvider Kind="Hybrid" BingKey="{Binding Key}"/>
+                    <dxm:BingMapDataProvider Kind="Hybrid" BingKey="OXy7ASjJwSCg3oN5HXdK~LOeEHj1Pcsp2HH28FQatbQ~ArtPSfd0zjZph9X69EllMsVE1fy5nPkonhmv3Y2mBpojBatU9tu4601oanVGyW1T"/>
                 </dxm:ImageTilesLayer.DataProvider>
             </dxm:ImageTilesLayer>
           <!-- <dxm:VectorLayer ItemsSource="{Binding MapElements}" SelectedItem="{Binding SelectedMapElement, UpdateSourceTrigger=PropertyChanged}" 
