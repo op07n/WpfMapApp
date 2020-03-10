@@ -33,27 +33,25 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="DevExpress.Data.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Library\DevExpress.Data.v13.2.dll</HintPath>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net40' ">  
+    <Reference Include="DevExpress.Data.v18.2">
+      <HintPath>..\packages\YshXaf.DevExpress.Data_yesfree.18.2.5\lib\net40\DevExpress.Data.v18.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Map.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Library\DevExpress.Map.v13.2.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Core.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Library\DevExpress.Xpf.Core.v13.2.dll</HintPath>
-    </Reference>
-    <Reference Include="devexpress.xpf.map.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Library\devexpress.xpf.map.v13.2.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xpf.Mvvm.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Library\DevExpress.Xpf.Mvvm.v13.2.dll</HintPath>
-    </Reference>
+    <Reference Include="DevExpress.Map.v18.2.Core">
+      <HintPath>..\packages\YshXaf.DevExpress.Map.Core_yesfree.18.2.5\lib\net40\DevExpress.Map.v18.2.Core.dll</HintPath>
+    </Reference>    
+    <Reference Include="DevExpress.Xpf.Core.v18.2">
+      <HintPath>..\packages\YshXaf.DevExpress.Xpf.Core_yesfree.18.2.5\lib\net40\DevExpress.Xpf.Core.v18.2.dll</HintPath>
+    </Reference>    
+    <Reference Include="DevExpress.Xpf.Map.v18.2">
+      <HintPath>..\packages\YshXaf.DevExpress.Xpf.Map_yesfree.18.2.5\lib\net40\DevExpress.Xpf.Map.v18.2.dll</HintPath>
+    </Reference>    
+    <Reference Include="DevExpress.Mvvm.v18.2">
+      <HintPath>..\packages\YshXaf.DevExpress.Mvvm_yesfree.18.2.5\lib\net40\DevExpress.Mvvm.v18.2.dll</HintPath>
+    </Reference>    
+    
+    
+
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -127,11 +125,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Library\DevExpress.Data.v13.2.dll" />
-    <Content Include="Library\DevExpress.Map.v13.2.Core.dll" />
-    <Content Include="Library\DevExpress.Xpf.Core.v13.2.dll" />
-    <Content Include="Library\devexpress.xpf.map.v13.2.dll" />
-    <Content Include="Library\DevExpress.Xpf.Mvvm.v13.2.dll" />
     <Content Include="Resources\map.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
