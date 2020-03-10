@@ -1,5 +1,5 @@
 ﻿using DevExpress.Xpf.Map;
-using DevExpress.Xpf.Mvvm;
+using DevExpress.Mvvm;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
