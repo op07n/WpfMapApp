@@ -29,8 +29,8 @@
                     <dxm:BingMapDataProvider Kind="Hybrid" BingKey="{Binding Key}"/>
                 </dxm:ImageTilesLayer.DataProvider>
             </dxm:ImageTilesLayer>
-            <dxm:VectorLayer ItemsSource="{Binding MapElements}" SelectedItem="{Binding SelectedMapElement, UpdateSourceTrigger=PropertyChanged}" 
-                 ToolTipContentTemplate="{StaticResource toolTipTemplate}"/>
+          <!-- <dxm:VectorLayer ItemsSource="{Binding MapElements}" SelectedItem="{Binding SelectedMapElement, UpdateSourceTrigger=PropertyChanged}" 
+                 ToolTipContentTemplate="{StaticResource toolTipTemplate}"/> -->
         </dxm:MapControl>
 
     </Grid>
